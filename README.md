@@ -72,25 +72,6 @@ To reproduce the CFD results you will need access to STAR-CCM+ and the geometry/
 - **k–ω SST** matched sphere validation best and was used for re-entry analyses.  
 - The Falcon-9 inspired vehicle exhibits a **transonic drag rise**, with grid-fins a significant contributor.  
 - Redesigned grid-fins (contoured cells + vortex generators) reduced transonic drag and improved through-cell flow.  
-- Translating CFD improvements into 3-DOF trajectories yielded **modest gains** — ballistic coefficient and integrated vehicle aerodynamics remain dominant factors.
+- Translating CFD improvements into 3-DOF trajectories yielded **modest gains**, ballistic coefficient and integrated vehicle aerodynamics remain dominant factors.
 
----
-
-## Notes, limitations & next steps
-
-- STAR-CCM+ project and NX CAD files are **not included**; these are required for full reproduction.  
-- The 6-DOF solver may require additional input formatting or dependencies — check its header comments.  
-- Suggested future work: real-time CFD coupling, extended dynamic modelling, wind-tunnel or flight testing, and structural/manufacturability evaluation of redesigned fins.
-
----
-
-## Contributing
-
-Want to help? Open a pull request or issue. Useful contributions include clearer run instructions, a sample `aero_table.csv`, unit tests, or exported STAR-CCM+ case metadata.
-
----
-
-## License
-
-This repository currently has **no license file**. If you want a permissive license, consider adding an `LICENSE` (e.g. MIT).
 
