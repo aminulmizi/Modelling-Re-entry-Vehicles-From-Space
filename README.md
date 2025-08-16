@@ -45,6 +45,7 @@ This repository contains the code and supporting material for a final-year proje
 Install with pip:
 ```bash
 pip install numpy scipy pandas matplotlib tqdm
+```
 
 ## Y+ and mesh guidance
 
